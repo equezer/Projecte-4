@@ -22,3 +22,8 @@ Requisits de Recuperació:
 - Temps de Recuperació (RTO): Les dades de Comptabilitat/Clients han d'estar disponibles en menys de 4 hores.
 - Pèrdua de Dades Admesa (RPO): Es pot admetre una pèrdua màxima de 24 hores per a la majoria de dades, però les dades de Comptabilitat/Clients no poden perdre més de 4 hores de treball.
 - Retenció: Cal guardar les dades amb un historial d'almenys un mes.
+
+
+```bash
+sudo apt install kea-dhcp4-server
+```

@@ -27,3 +27,6 @@ Aquesta guia ha de ser impecable. Penseu que el pròxim tècnic que s'incorpori 
 Materials i links de suport
 
 ●        [Moodle 0227 Serveis de Xarxa. UD4.AA2 Pràctica SSH](https://docs.google.com/presentation/d/13cohwuKWrA5wj4kbUMHTqP7YPhBNeUFk/edit?slide=id.p2#slide=id.p2)
+
+
+a l'arxiu: [solucio.md](solucio.md) trobaras la solució a la tasca

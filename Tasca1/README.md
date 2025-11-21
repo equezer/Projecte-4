@@ -24,6 +24,6 @@ Requisits de Recuperació:
 - Retenció: Cal guardar les dades amb un historial d'almenys un mes.
 
 
-```bash
-sudo apt install kea-dhcp4-server
-```
+a l'arxiu: [solucio.md](solucio.md) trobaras la solució a la tasca
+
+[torna a la pàgina principal](../README.md)

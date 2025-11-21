@@ -8,6 +8,7 @@ Index de tasques del projecte:
 - [Tasca3](Tasca3)
 - [Tasca4](Tasca4)
 - [Tasca5](Tasca5)
+- [Tasca13](Tasca13)
 
 ---
 Després de setmanes convivint amb el ritme imprevisible d’una consultora tecnològica, arriba al darrer capítol de la trilogia EverPia. És un moment que combina entusiasme, maduresa i una sensació molt real: aquesta etapa s’acaba, i comença alguna cosa nova.

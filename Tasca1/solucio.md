@@ -40,3 +40,7 @@ les dades més crítiques del servidor son els documents de projectes ja que pod
 - Cloud per a les còpies completes setmanals i retencions mensuals, assegurant una còpia fora de l’empresa.
 
 - Disc dur extern com a còpia offline per reforçar la seguretat contra ransomware.
+
+---
+
+

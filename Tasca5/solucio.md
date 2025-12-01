@@ -150,14 +150,14 @@ per aixo primer desconnectarem el firewall de Windows
 
 <img width="779" height="591" alt="image" src="https://github.com/user-attachments/assets/c76fd79d-784c-4c6f-943e-3ff951abdc3b" />
 
-i ara desde Zorin comprovem l'usuari
+i ara desde Zorin comprovem l'usuari amb aquestes comandes:
 
 <img width="637" height="91" alt="image" src="https://github.com/user-attachments/assets/fd85145f-4be4-4367-906f-f99c6edc40d4" />
 
 
 <img width="862" height="147" alt="image" src="https://github.com/user-attachments/assets/3d6bee9f-b037-4315-aa46-28bbe9b6bb26" />
 
-creem un socks dinàmic
+creem un socks dinàmic:
 
 <img width="488" height="210" alt="image" src="https://github.com/user-attachments/assets/257d1687-e0c6-4505-bca9-c05b555dfd31" />
 
@@ -171,7 +171,9 @@ creem un socks dinàmic
 
 <img width="426" height="500" alt="image" src="https://github.com/user-attachments/assets/8ae13b08-825b-4e0b-9487-1966557dcf13" />
 
-## Ara a Wireshark entrem a l'opció de ethernet 2 y veurem l'informació encriptada
+## 19. Ara a Wireshark entrem a l'opció de ethernet 2 y veurem l'informació encriptada
+
+com exemple entrarem a youtube: i el desarem obert
 
 <img width="881" height="671" alt="image" src="https://github.com/user-attachments/assets/2dbae776-f5d5-49c4-b17d-1e59b309589b" />
 

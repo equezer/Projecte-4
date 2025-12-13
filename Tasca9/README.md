@@ -10,3 +10,8 @@ Ens han contractat per implementar un servidor de fitxers centralitzat. Atès qu
 El client ha insistit en que treballa sense un entorn d’autenticació centralitzada i que, de moment, no té previst fer aquest pas.
 Per mostrar al client com quedarà la solució proposada a partir de les seves demandes i poder mostrar també les limitacions, se t’encarrega fer una demostració del sistema.
 Crearàs un servidor NFS (NFSv3) i un client Linux que consumeixi els recursos compartits. Hauràs de crear usuaris i grups per simular l'entorn del client i demostrar el control d'accés utilitzant les opcions d'exportació (/etc/exports) i els permisos del sistema de fitxers (chmod, chown).
+
+
+a l'arxiu: [solucio.md](solucio.md) trobaras la solució a la tasca
+
+[torna a la pàgina principal](../README.md)

@@ -17,7 +17,7 @@ Abans de compartir res, hem de preparar els usuaris i els directoris al Servidor
 
 primer al servidor Ubuntu creearem aquests dos grups
 
-  ```bash
+```bash
 sudo groupadd devs
 ```
 ```bash

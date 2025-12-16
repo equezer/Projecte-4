@@ -87,5 +87,13 @@ grep -E "userjanf|userjanp" /etc/passwd
 ```
 <img width="406" height="50" alt="image" src="https://github.com/user-attachments/assets/cd6c52dc-3f7e-4189-b284-ae5b3d36550b" />
 
+---
 
+Configurem la contrasenya dels usuaris:
 
+```bash
+passwd userijanf
+```
+```bash
+passwd userjanp
+```

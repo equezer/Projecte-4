@@ -120,4 +120,122 @@ El següent pas serà fer la còpia de seguretat de la carpeta /home amb la seg�
 sudo duplicity full /home/ file:///media/backup/
 ```
 
+<img width="557" height="404" alt="image" src="https://github.com/user-attachments/assets/d1d86b2a-007b-4e9c-8d57-db41321d65b5" />
+
+
+comprovem que s'ha creat correctament:
+
+<img width="1199" height="40" alt="image" src="https://github.com/user-attachments/assets/ab7deeae-0b4f-4d94-ad9c-46b84b8c2964" />
+
+---
+
+Ara esborrarem alguns arxius per poder després fer la restauració:
+
+```bash
+rm archivo1 ...
+```
+<img width="189" height="70" alt="image" src="https://github.com/user-attachments/assets/cc86b14e-10ee-4318-8eea-71661ad7442f" />
+
+I comprovem que ja no els tenim amb:
+
+```bash
+ls
+```
+---
+
+El següent serà fer la restauració del /home de l’usuari, ho farem amb:
+
+```bash
+sudo duplicity restore file:///media/backup/ /home/usuari
+```
+<img width="551" height="69" alt="image" src="https://github.com/user-attachments/assets/cae1e4dd-947d-44e4-825e-43d671f06107" />
+
+---
+
+Després el següent pas serà crear un nou fitxer per fer una altra comprovació.
+
+```bash
+fallocate -l 4MB archivo1
+```
+
+---
+
+Farem una copia incrementalamb aquesta comanda:
+
+```bash
+duplicity full /home/ file:///media/backup
+```
+<img width="516" height="194" alt="image" src="https://github.com/user-attachments/assets/8790b1eb-f5c2-4be7-b037-4758dc74f0c0" />
+
+---
+
+Ara desmuntarem /media/backup:
+
+```bash
+umount /media/backup
+```
+<img width="259" height="18" alt="image" src="https://github.com/user-attachments/assets/86d48d06-6519-46ff-81f8-ffc625900134" />
+
+---
+
+Ara crearem un script amb bin/bash que farà la còpia completa de /home de l’usuari principal:
+
+<img width="732" height="184" alt="image" src="https://github.com/user-attachments/assets/6c2538d1-a3f7-4e4a-a3d3-9c3316649c60" />
+
+---
+
+Després li donarem permisos d’execució perquè si no no podrem executar-lo.
+
+```bash
+chmod +x fullbackup.sh
+```
+<img width="351" height="18" alt="image" src="https://github.com/user-attachments/assets/b8572717-4307-46ec-b22f-5dca09002f70" />
+
+---
+
+Programem al cron com a root  l’execució de l’script els diumenges a les 23:00.
+
+```bash
+sudo crontab -e
+```
+<img width="253" height="20" alt="image" src="https://github.com/user-attachments/assets/8db9df0b-bfe8-45f9-bfcf-432477633c96" />
+
+<img width="786" height="407" alt="image" src="https://github.com/user-attachments/assets/bbc830f5-1b32-42ac-abb0-132346628b9a" />
+
+---
+
+creem un altre arxiu executable de bin/bash, que sigui l’incremental.
+
+```bash
+sudo nano incrementalbackup.sh
+```
+
+<img width="764" height="186" alt="image" src="https://github.com/user-attachments/assets/ba849c9f-bb8f-4092-a2fc-08ae8e49a568" />
+
+---
+
+Donarem també els permisos amb chmod.
+
+```bash
+sudo chmod +x incrementalbackup.sh
+```
+<img width="411" height="19" alt="image" src="https://github.com/user-attachments/assets/2e41042e-3972-4397-afbe-c6ca020a1f29" />
+
+Comprovem que s'han creat correctament amb la comanda:
+
+```bash
+ls -l
+```
+
+<img width="493" height="64" alt="image" src="https://github.com/user-attachments/assets/1f0e8af8-9eb7-4d7e-ba13-f1c5f806c309" />
+
+---
+
+Executem el programa cron per configurar que es repeteixi a les 23 hores:
+
+```bash
+sudo crontab -e
+```
+
+<img width="788" height="434" alt="image" src="https://github.com/user-attachments/assets/660b89b1-f49b-4074-9365-03ce861f2418" />
 

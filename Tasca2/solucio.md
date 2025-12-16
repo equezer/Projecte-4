@@ -1,3 +1,166 @@
+# T02: DPR – Còpies de seguretat  
+## Cas pràctic
+
+---
+
+## Part 1: Còpia de seguretat dels equips clients Windows
+
+### 1. Afegim un disc de 10 GB
+Afegim un disc de **10 GB** que serà el disc de *backup*.
+
+> *(Imatge: afegir disc)*
+
+---
+
+### 2. Obrim l’administrador de discos
+Obrim l’administrador de discos i creem un **disc simple nou**.
+
+> *(Imatges: administrador de discos / creació del disc simple)*
+
+---
+
+### 3. Instal·lació de Duplicati
+Obrim la màquina de **Windows 11** i anem al **Microsoft Edge** per instal·lar i configurar **Duplicati**.
+
+> *(Imatge: pàgina de Duplicati)*
+
+---
+
+### 4. Contrasenya de seguretat
+Un cop instal·lat, ens demanarà crear una contrasenya per seguretat.  
+Introduïm:
+
+
+---
+
+### 5. Creació del pla de còpia local (cada hora)
+
+#### Crear Backup 1: Local
+Afegim un **backup nou**.
+
+> *(Imatge: afegir backup)*
+
+Configurem el nou backup.
+
+> *(Imatge: configuració backup)*
+
+---
+
+#### Destinació del backup
+Indiquem la destinació on anirà el nostre backup (disc secundari).
+
+> *(Imatge: destinació backup)*
+
+---
+
+#### Dades d’origen
+A l’apartat de dades d’origen seleccionem:
+- La carpeta creada anteriorment
+- Un nou *path* anomenat `backups`
+
+> *(Imatge: dades d’origen)*
+
+---
+
+#### Planificació
+Configurem el backup perquè:
+- Es faci **cada hora**
+- Comenci a les **13:00**
+
+> *(Imatge: planificació)*
+
+---
+
+Un cop fet això, ja tindrem el **backup local creat**.
+
+---
+
+## Còpia de seguretat al núvol (Google Drive)
+
+Creem una còpia de seguretat al núvol amb **Google Drive**, repetint el procés fins a l’apartat de destinació del backup.
+
+---
+
+### Destinació del backup
+A *Backup destination* seleccionem **Google Drive**.
+
+> *(Imatge: selecció Google Drive)*
+
+---
+
+### Autorització
+Haurem d’autoritzar l’accés fent clic al botó indicat i iniciar sessió amb el nostre compte de correu.
+
+- Seleccionem el compte
+- Acceptem els termes i condicions
+
+> *(Imatges: autorització Google Drive)*
+
+---
+
+### Dades d’origen
+Seleccionem com a dades d’origen la carpeta:
+
+- `MyDocuments`
+
+> *(Imatge: dades d’origen Drive)*
+
+---
+
+### Planificació
+Configurem el backup perquè:
+- Es faci **cada dia**
+- A les **18:00 hores**
+
+> *(Imatge: planificació Drive)*
+
+---
+
+### Opcions finals
+Deixem les opcions en **predeterminat**.
+
+Ara ja tindrem:
+- Un backup local al disc **D:**
+- Un backup al **Google Drive**
+
+---
+
+## Comprovació del funcionament
+
+1. Esborrem el contingut de la carpeta **Documents**
+2. Comprovem el backup local del disc **D:**
+
+---
+
+### Restauració amb Duplicati
+Dins de Duplicati:
+- Cliquem **Start** a l’apartat **Restores**
+- Seleccionem el **primer backup creat**
+- Restaurem la carpeta seleccionada
+
+> *(Imatges: procés de restauració)*
+
+I ja tindrem les dades restaurades.
+
+---
+
+### Restauració amb Google Drive
+- Cliquem **Start**
+- Es crea automàticament la carpeta al Drive amb els backups
+
+---
+
+## Part 2: Còpia de seguretat servidor Linux
+
+Afegirem un **segon disc de 10 GB** que simularà una unitat auxiliar.
+
+---
+
+### 1. Comprovació del disc
+Entrem a la màquina **Linux** i comprovem que detecta el segon disc amb la següent comanda:
+
+```bash
+lsblk
 
 
 # Part 2: Còpia seguretat servidor Linux

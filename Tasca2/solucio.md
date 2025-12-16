@@ -97,3 +97,27 @@ passwd userijanf
 ```bash
 passwd userjanp
 ```
+<img width="317" height="147" alt="image" src="https://github.com/user-attachments/assets/0b143913-b0a4-4f14-bed4-5a666e628068" />
+
+---
+
+Crearem arxius buits sense propòsit només perquè estiguin allà per poder fer la prova a la carpeta home de l’usuari.
+
+```bash
+fallocate -l 10MB archivo1
+```
+<img width="300" height="22" alt="image" src="https://github.com/user-attachments/assets/2f80306e-86d1-4fba-b4aa-85af53afcb76" />
+
+i fem ls per comprovar:
+
+<img width="306" height="80" alt="image" src="https://github.com/user-attachments/assets/dc877319-4d54-412f-a2ae-6d88271217c3" />
+
+---
+
+El següent pas serà fer la còpia de seguretat de la carpeta /home amb la següent comanda:
+
+```bash
+sudo duplicity full /home/ file:///media/backup/
+```
+
+

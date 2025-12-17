@@ -8,28 +8,33 @@
 ### 1. Afegim un disc de 10 GB
 Afegim un disc de **10 GB** que serà el disc de *backup*.
 
-> *(Imatge: afegir disc)*
+<img width="542" height="304" alt="image" src="https://github.com/user-attachments/assets/7ed324b4-2b52-4dcf-acbb-868514385b21" />
 
 ---
 
 ### 2. Obrim l’administrador de discos
 Obrim l’administrador de discos i creem un **disc simple nou**.
 
-> *(Imatges: administrador de discos / creació del disc simple)*
+<img width="544" height="255" alt="image" src="https://github.com/user-attachments/assets/deda2b76-4202-4c48-9068-6d0adba91155" />
+
+<img width="541" height="178" alt="image" src="https://github.com/user-attachments/assets/016ca7a9-9155-4fee-996f-94575689560e" />
+
+<img width="541" height="153" alt="image" src="https://github.com/user-attachments/assets/f82df57d-5454-43b1-be6e-bf558e45b6cf" />
 
 ---
 
 ### 3. Instal·lació de Duplicati
 Obrim la màquina de **Windows 11** i anem al **Microsoft Edge** per instal·lar i configurar **Duplicati**.
 
-> *(Imatge: pàgina de Duplicati)*
+<img width="538" height="379" alt="image" src="https://github.com/user-attachments/assets/8dc8a9d2-ff8d-4ffe-ba37-cc700d2df1dd" />
+
 
 ---
 
 ### 4. Contrasenya de seguretat
 Un cop instal·lat, ens demanarà crear una contrasenya per seguretat.  
-Introduïm:
 
+<img width="752" height="527" alt="image" src="https://github.com/user-attachments/assets/7a755147-f7c3-4374-b208-5c15e8c56f05" />
 
 ---
 
@@ -38,18 +43,23 @@ Introduïm:
 #### Crear Backup 1: Local
 Afegim un **backup nou**.
 
-> *(Imatge: afegir backup)*
+<img width="659" height="329" alt="image" src="https://github.com/user-attachments/assets/dda10b72-740f-4fd2-b9e4-35b3037f9445" />
+
+<img width="443" height="515" alt="image" src="https://github.com/user-attachments/assets/a97f7d40-23aa-4581-a14c-9d0acb472e9c" />
+
 
 Configurem el nou backup.
 
-> *(Imatge: configuració backup)*
+<img width="541" height="454" alt="image" src="https://github.com/user-attachments/assets/f1f4c8b2-c8f0-4b44-8bd1-38d1f525ca7a" />
+
 
 ---
 
 #### Destinació del backup
 Indiquem la destinació on anirà el nostre backup (disc secundari).
 
-> *(Imatge: destinació backup)*
+<img width="597" height="498" alt="image" src="https://github.com/user-attachments/assets/7aa6053a-ef01-4363-8a0b-59e6473ce222" />
+
 
 ---
 
@@ -58,7 +68,8 @@ A l’apartat de dades d’origen seleccionem:
 - La carpeta creada anteriorment
 - Un nou *path* anomenat `backups`
 
-> *(Imatge: dades d’origen)*
+<img width="751" height="463" alt="image" src="https://github.com/user-attachments/assets/bc9c083a-cee7-4f7d-a48b-d97a271a208f" />
+
 
 ---
 
@@ -67,11 +78,12 @@ Configurem el backup perquè:
 - Es faci **cada hora**
 - Comenci a les **13:00**
 
-> *(Imatge: planificació)*
-
----
+<img width="469" height="441" alt="image" src="https://github.com/user-attachments/assets/4bff13ef-1514-4623-96cb-6edfe24ae714" />
 
 Un cop fet això, ja tindrem el **backup local creat**.
+
+<img width="751" height="452" alt="image" src="https://github.com/user-attachments/assets/84415042-63e6-48a3-9db2-f951381e3786" />
+
 
 ---
 
@@ -79,12 +91,20 @@ Un cop fet això, ja tindrem el **backup local creat**.
 
 Creem una còpia de seguretat al núvol amb **Google Drive**, repetint el procés fins a l’apartat de destinació del backup.
 
+1.
+<img width="463" height="144" alt="image" src="https://github.com/user-attachments/assets/a503f767-4eee-466d-b85f-6c193998d428" />
+2.
+<img width="356" height="416" alt="image" src="https://github.com/user-attachments/assets/aff55e79-c1f6-4b66-b4f6-441b6c377893" />
+3.
+<img width="555" height="631" alt="image" src="https://github.com/user-attachments/assets/6ea7200f-5e02-4af3-8cad-ff246c82938d" />
+
 ---
 
 ### Destinació del backup
 A *Backup destination* seleccionem **Google Drive**.
 
-> *(Imatge: selecció Google Drive)*
+<img width="658" height="590" alt="image" src="https://github.com/user-attachments/assets/4ab44f5e-f715-4e60-a088-6691bc7bfb84" />
+
 
 ---
 
@@ -94,7 +114,11 @@ Haurem d’autoritzar l’accés fent clic al botó indicat i iniciar sessió am
 - Seleccionem el compte
 - Acceptem els termes i condicions
 
-> *(Imatges: autorització Google Drive)*
+<img width="394" height="335" alt="image" src="https://github.com/user-attachments/assets/4b02f826-bbb3-422c-9e76-bfb0833619bf" />
+
+<img width="274" height="370" alt="image" src="https://github.com/user-attachments/assets/9726a48e-f5d2-4ade-991d-d6d76150bde2" />
+
+<img width="367" height="537" alt="image" src="https://github.com/user-attachments/assets/dcbd7ce8-1f69-4734-8a66-7a400d001ed9" />
 
 ---
 
@@ -103,7 +127,8 @@ Seleccionem com a dades d’origen la carpeta:
 
 - `MyDocuments`
 
-> *(Imatge: dades d’origen Drive)*
+<img width="608" height="458" alt="image" src="https://github.com/user-attachments/assets/702f49b6-132e-4b56-b587-a271d25c31f1" />
+
 
 ---
 
@@ -112,7 +137,8 @@ Configurem el backup perquè:
 - Es faci **cada dia**
 - A les **18:00 hores**
 
-> *(Imatge: planificació Drive)*
+<img width="490" height="560" alt="image" src="https://github.com/user-attachments/assets/20e4bd57-3b3f-4e1a-a780-3851d8cfbffa" />
+
 
 ---
 
@@ -123,6 +149,10 @@ Ara ja tindrem:
 - Un backup local al disc **D:**
 - Un backup al **Google Drive**
 
+<img width="460" height="573" alt="image" src="https://github.com/user-attachments/assets/3a9ccbc4-7ae3-4e37-a6ec-2912b6df0c47" />
+
+<img width="618" height="368" alt="image" src="https://github.com/user-attachments/assets/9218ca33-a5ca-4200-b814-72720c14585d" />
+
 ---
 
 ## Comprovació del funcionament
@@ -130,29 +160,52 @@ Ara ja tindrem:
 1. Esborrem el contingut de la carpeta **Documents**
 2. Comprovem el backup local del disc **D:**
 
+<img width="752" height="553" alt="image" src="https://github.com/user-attachments/assets/6838c881-3f32-4186-9d83-c76fd0992ad0" />
+
 ---
 
 ### Restauració amb Duplicati
 Dins de Duplicati:
 - Cliquem **Start** a l’apartat **Restores**
+
+<img width="404" height="102" alt="image" src="https://github.com/user-attachments/assets/58a1b9d5-7d3e-4b39-a061-fb7d8466a18a" />
+
+  
 - Seleccionem el **primer backup creat**
+
+<img width="646" height="78" alt="image" src="https://github.com/user-attachments/assets/3bb1034d-5281-4473-9bc8-f5e704742b1b" />
+
+  
 - Restaurem la carpeta seleccionada
 
-> *(Imatges: procés de restauració)*
+<img width="410" height="25" alt="image" src="https://github.com/user-attachments/assets/d311ba7a-b8a0-4639-a03b-2aedef71d09d" />
+
 
 I ja tindrem les dades restaurades.
+
+<img width="746" height="416" alt="image" src="https://github.com/user-attachments/assets/2ffecac4-52b9-4669-8a8e-6a0ba7c91fbf" />
 
 ---
 
 ### Restauració amb Google Drive
+
 - Cliquem **Start**
+
+<img width="738" height="180" alt="image" src="https://github.com/user-attachments/assets/fa6ba28d-3cde-4d56-857c-b2e1f121cb63" />
+
 - Es crea automàticament la carpeta al Drive amb els backups
+
+<img width="743" height="381" alt="image" src="https://github.com/user-attachments/assets/3c85a221-c3d1-4dfd-9f60-0af16c072f86" />
+
 
 ---
 
 ## Part 2: Còpia de seguretat servidor Linux
 
 Afegirem un **segon disc de 10 GB** que simularà una unitat auxiliar.
+
+<img width="630" height="489" alt="image" src="https://github.com/user-attachments/assets/d2f7934b-118d-4358-9fd7-1d6b2b49d91d" />
+
 
 ---
 
@@ -161,6 +214,9 @@ Entrem a la màquina **Linux** i comprovem que detecta el segon disc amb la seg�
 
 ```bash
 lsblk
+```
+
+<img width="503" height="164" alt="image" src="https://github.com/user-attachments/assets/841b6edf-252d-4071-ac67-f87c72812846" />
 
 
 # Part 2: Còpia seguretat servidor Linux

@@ -9,6 +9,7 @@ Index de tasques del projecte:
 - [Tasca4](Tasca4)
 - [Tasca5](Tasca5)
 - [Tasca6](Tasca6)
+- [Tasca7](Tasca7)
 - [Tasca9](Tasca9)
 - [Tasca13](Tasca13)
 

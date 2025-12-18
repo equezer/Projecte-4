@@ -1,12 +1,12 @@
 # T06 — Accés remot: Escriptori remot (RDP)
 
-## 📌 Objectiu de la tasca
+## Objectiu de la tasca
 
 Configurar i provar un sistema d’**accés remot mitjançant escriptori remot (RDP)** per administrar un equip de forma gràfica, garantint la seguretat i el correcte funcionament del servei.
 
 ---
 
-## 🧠 Context
+## Context
 
 L’accés remot gràfic és molt utilitzat en entorns empresarials per:
 

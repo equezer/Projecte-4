@@ -14,196 +14,172 @@ Ha d'explicar el flux de treball des del punt de vista del consultor. Ha d'inclo
 
 ---
 
-# Documentació Oficial – Zoho Assist
+## 1. Instal·lació d’AnyDesk (versió tècnica)
 
-## Guia 1: Manual per al Tècnic (Intern d’EverPia)
-
-**Versió:** 1.0
-**Destinataris:** Becaris i tècnics IT d’EverPia
-**Rol:** Consultor / Tècnic de suport
-**Eina:** Zoho Assist (versió completa/tècnica)
-
----
-
-## 1. Objectiu de la guia
-
-Aquesta guia té com a objectiu formar els nous tècnics i becaris d’EverPia en l’ús correcte i segur de **Zoho Assist**, l’eina oficial de suport remot de l’empresa.
-
-S’explica el **flux de treball complet des del punt de vista del consultor**, des de la instal·lació fins a la finalització d’una sessió de suport, incloent funcions clau i bones pràctiques de seguretat.
-
----
-
-## 2. Requisits previs
-
-Abans de començar, assegura’t de disposar de:
-
-* Un compte corporatiu d’EverPia amb accés a Zoho Assist
-* Connexió a Internet estable
-* Ordinador amb permisos d’instal·lació (Windows / macOS)
-* Navegador web actualitzat (Chrome, Edge o Firefox)
-
----
-
-## 3. Instal·lació de Zoho Assist (versió completa/tècnica)
-
-### 3.1 Accés a la plataforma
+### 1.2 Descàrrega de l’aplicació
 
 1. Obre el navegador web
-2. Accedeix a: **[https://assist.zoho.com](https://assist.zoho.com)**
-3. Inicia sessió amb el teu compte corporatiu d’EverPia
+2. Accedeix a: **[https://anydesk.com](https://anydesk.com)**
+3. Clica **Download / Descarregar**
+4. Selecciona la versió corresponent al teu sistema operatiu
+   
+<img width="1327" height="569" alt="image" src="https://github.com/user-attachments/assets/f9be1e14-de15-4927-aaa6-9433cff6e7aa" />
 
-📸 *Captura de pantalla 1: Pantalla d’inici de sessió de Zoho Assist*
-
----
-
-### 3.2 Descàrrega de l’aplicació tècnica
-
-1. Un cop dins del tauler principal, ves al menú **Settings / Configuració**
-2. Selecciona **Download Zoho Assist**
-3. Descarrega l’aplicació corresponent al teu sistema operatiu
-
-📸 *Captura de pantalla 2: Opció de descàrrega de Zoho Assist*
 
 ---
 
-### 3.3 Instal·lació
+### 2. Instal·lació
 
 1. Executa el fitxer descarregat
-2. Accepta els termes de la llicència
-3. Completa la instal·lació seguint l’assistent
-4. Inicia l’aplicació Zoho Assist
 
-📸 *Captura de pantalla 3: Procés d’instal·lació*
+<img width="327" height="125" alt="image" src="https://github.com/user-attachments/assets/6f2b7c66-0853-4e0b-8f2a-1548b395e90c" />
 
----
+2. Si és necessari, selecciona **Install AnyDesk** i Finalitza la instal·lació
 
-## 4. Iniciar una sessió de suport remot
+<img width="721" height="610" alt="image" src="https://github.com/user-attachments/assets/7017f138-dc4f-41b1-8e62-e95a134168cd" />
 
-### 4.1 Creació de la sessió
+<img width="565" height="241" alt="image" src="https://github.com/user-attachments/assets/15289e0f-3969-4fde-b983-4e760988ba46" />
 
-1. Des del tauler principal, selecciona **Start a Remote Support Session**
-2. Introdueix el nom o correu del client
-3. Fes clic a **Start Session**
-
-📸 *Captura de pantalla 4: Creació d’una sessió de suport*
+AnyDesk pot funcionar sense instal·lació, però **es recomana instal·lar-lo** per a suport professional.
 
 ---
 
-### 4.2 Connexió amb el client
+## 3. Iniciar una sessió de suport remot
 
-El client pot unir-se mitjançant:
+### Identificador d’AnyDesk
 
-* Un **enllaç** enviat per correu
-* Un **codi de sessió**
+Cada dispositiu disposa d’un **AnyDesk ID** únic.
 
-El tècnic ha d’esperar que el client accepti la connexió.
+1. Primer ens reegistrarem i una vegada fet iniciarem sessió:
 
-📸 *Captura de pantalla 5: Client connectant-se a la sessió*
+<img width="472" height="621" alt="image" src="https://github.com/user-attachments/assets/beec33b3-118d-48d0-a30d-c9e88f32da0e" />
+
+2. Demanar al client el seu AnyDesk ID que sortira a la part de dalt de la aplicació 
+
+<img width="1014" height="573" alt="image" src="https://github.com/user-attachments/assets/de41497f-5024-4f2b-8772-185240eb53d1" />
+
+3. Introdueix-lo al camp **Remote Address**
+
+<img width="743" height="113" alt="image" src="https://github.com/user-attachments/assets/325651f9-7978-4998-b4c1-815a1e88ad65" />
+
+4. Clica **Connect**
+
+<img width="983" height="113" alt="image" src="https://github.com/user-attachments/assets/4ecdb5bc-ab5c-43a3-9bc8-136dcba46934" />
+
+5. Ens sortira que faltaran permisos de captura de pantalla al dispositiu remot
+
+<img width="912" height="412" alt="image" src="https://github.com/user-attachments/assets/fac1a0f0-7f58-4e7f-9780-ff7fa0276c1f" />
+
+6. al altre dispositiu haurem de desactivar a predeterminat la opció de bloquear mi dispositivo
+
+<img width="829" height="679" alt="image" src="https://github.com/user-attachments/assets/84dc05b0-aa0f-44af-8ad0-d515e9c13bbd" />
 
 ---
 
-## 5. Gestió de funcions clau a Zoho Assist
+### 4. Acceptació del client
 
-Durant la sessió, el tècnic disposa de diverses eines fonamentals.
+El client ha d’acceptar la connexió i pot:
+
+* Permetre o denegar control del teclat i ratolí
+* Autoritzar la transferència d’arxius
+* Limitar l’accés a funcions concretes
+
+<img width="510" height="672" alt="image" src="https://github.com/user-attachments/assets/908f9ca0-6757-4edc-b005-a5cb1f091b45" />
+
+
+---
+
+## 5. Gestió de funcions clau a AnyDesk
 
 ---
 
 ### 5.1 Transferència d’arxius
 
-Permet enviar o rebre documents de forma segura.
+Permet enviar i rebre arxius de manera segura.
 
 **Passos:**
 
-1. Clica la icona **File Transfer**
-2. Selecciona l’arxiu a enviar o descarregar
-3. Confirma la transferència
+1. Accedeix al menú **File Transfer**
+2. Selecciona l’arxiu origen i destinació
+3. Inicia la transferència
 
-📸 *Captura de pantalla 6: Transferència d’arxius*
+📸 *Captura de pantalla 5: Transferència d’arxius a AnyDesk*
 
-✔ Recomanat per logs, informes o instal·ladors
+✔ Recomanat per instal·ladors, informes o fitxers de diagnòstic
 
 ---
 
-### 5.2 Canvi de pantalla / dispositiu
+### 5.2 Canvi de pantalla / visualització
 
-Si el client té més d’una pantalla:
+Si el client disposa de diverses pantalles:
 
-1. Accedeix a **Screen Options**
-2. Selecciona la pantalla desitjada
+1. Obre el menú de **Display / Pantalla**
+2. Selecciona la pantalla que vols visualitzar
 
-📸 *Captura de pantalla 7: Canvi de pantalla*
+📸 *Captura de pantalla 6: Canvi de pantalla a AnyDesk*
 
 ---
 
 ### 5.3 Reinici remot
 
-Funció útil per actualitzacions o aplicació de canvis.
-
-**Opcions disponibles:**
-
-* Reinici normal
-* Reinici en mode segur
+AnyDesk permet reiniciar el dispositiu remot mantenint la connexió.
 
 **Passos:**
 
-1. Clica **Reboot**
-2. Selecciona el tipus de reinici
-3. Confirma l’acció
+1. Accedeix a **Actions / Accions**
+2. Selecciona **Restart**
+3. Confirma el reinici
 
-📸 *Captura de pantalla 8: Reinici remot*
+📸 *Captura de pantalla 7: Reinici remot amb AnyDesk*
 
-⚠ El client ha d’estar informat abans del reinici
+⚠ Informa sempre el client abans de realitzar el reinici
 
 ---
 
 ## 6. Finalització de la sessió
 
-Un cop resolta la incidència:
+Quan la incidència estigui resolta:
 
-1. Explica al client les accions realitzades
-2. Tanca la sessió amb **End Session**
-3. Verifica que la connexió s’ha tancat correctament
+1. Comunica al client les accions realitzades
+2. Tanca la connexió clicant **Disconnect**
+3. Assegura’t que no queda cap accés actiu
 
-📸 *Captura de pantalla 9: Finalitzar sessió*
+📸 *Captura de pantalla 8: Finalitzar sessió a AnyDesk*
 
 ---
 
 ## 7. Bones pràctiques de seguretat
 
-És obligatori complir les següents normes:
+### 7.1 Gestió de sessions
 
-### 7.1 Autenticació i sessions
-
-* 🔒 Tanca sempre la sessió en acabar
-* ❌ No utilitzis comptes compartits
-* ⏱ No deixis sessions obertes sense supervisió
+* 🔒 Tanca sempre la connexió en acabar
+* ❌ No reutilitzis connexions actives
+* ⏱ Evita sessions obertes sense supervisió
 
 ---
 
-### 7.2 Gestió de credencials
+### 7.2 Credencials i permisos
 
-* ❌ No desar contrasenyes de clients
-* ❌ No demanar dades sensibles si no és imprescindible
-* ✔ Utilitzar només canals segurs
+* ❌ No demanis ni desis contrasenyes de clients
+* ✔ Utilitza permisos temporals
+* ✔ Respecta les limitacions definides pel client
 
 ---
 
-### 7.3 Arxius i dades
+### 7.3 Dades i confidencialitat
 
-* Elimina arxius del client un cop finalitzat el suport
-* No guardis informació localment sense autorització
-* Respecta la normativa de protecció de dades (RGPD)
+* No guardis arxius del client sense autorització
+* Elimina qualsevol fitxer un cop finalitzat el suport
+* Compleix la normativa de protecció de dades (RGPD)
 
 ---
 
 ## 8. Responsabilitat del tècnic
 
-Cada tècnic és responsable de:
+El tècnic és responsable de:
 
-* L’ús correcte de Zoho Assist
-* La confidencialitat de la informació del client
+* L’ús professional d’AnyDesk
+* La seguretat de la connexió
+* La confidencialitat de la informació tractada
 * El compliment dels protocols interns d’EverPia
 
----
-
-**Fi de la Guia 1 – Manual per al Tècnic (Zoho Assist)**

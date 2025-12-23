@@ -153,12 +153,12 @@ AnyDesk permet reiniciar el dispositiu remot mantenint la connexió.
 
 Quan la incidència estigui resolta:
 
-1. Comunica al client les accions realitzades
+### 1. Comunica al client les accions realitzades
 
 <img width="389" height="491" alt="image" src="https://github.com/user-attachments/assets/57407f1f-0c43-4f60-bb88-cd7ef406026f" />
 
 
-2. Tanca la connexió clicant **Disconnect**
+### 2. Tanca la connexió clicant **Disconnect**
 
 <img width="699" height="516" alt="image" src="https://github.com/user-attachments/assets/c4f25d51-0b8b-487e-9b49-46474ffd6f40" />
 

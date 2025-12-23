@@ -99,13 +99,22 @@ Permet enviar i rebre arxius de manera segura.
 
 **Passos:**
 
-1. Accedeix al menú **File Transfer**
-2. Selecciona l’arxiu origen i destinació
-3. Inicia la transferència
+### 1. Accedeix al menú **File Transfer**
+   
+<img width="603" height="305" alt="image" src="https://github.com/user-attachments/assets/6f3bd7a8-7002-4041-9084-09e8c7329e55" />
 
-📸 *Captura de pantalla 5: Transferència d’arxius a AnyDesk*
+### 2. Selecciona l’arxiu origen i destinació
 
-✔ Recomanat per instal·ladors, informes o fitxers de diagnòstic
+Després de connectar amb un altre equip de manera remota, selecciona l'arxiu que desitges transferir i fes clic sobre aquest amb el botó dret del ratolí. Una vegada fet això apareixerà un menú desplegable on has de prémer el botó “Copiar”. Alternativament pots utilitzar la drecera de teclat Ctrl + C.
+
+<img width="613" height="477" alt="image" src="https://github.com/user-attachments/assets/65a44be6-d414-402d-9f0c-4962a2771cfb" />
+
+
+### 3. Inicia la transferència
+
+Ara simplement accedeix a l'ordinador remot i cerca la carpeta on vols desar l'arxiu. Una vegada en ella, fes clic amb el botó dret del ratolí i prem el botó “Pegar”. Si ho prefereixes, pots utilitzar la drecera de teclat Ctrl + V. Després d'això simplement espera al fet que l'arxiu es transfereixi del teu ordinador a un altre.
+
+<img width="284" height="281" alt="image" src="https://github.com/user-attachments/assets/b121f4d7-008b-4472-88ac-492a700f0899" />
 
 ---
 
@@ -113,10 +122,13 @@ Permet enviar i rebre arxius de manera segura.
 
 Si el client disposa de diverses pantalles:
 
-1. Obre el menú de **Display / Pantalla**
-2. Selecciona la pantalla que vols visualitzar
+### 1. Obre el menú de **Display / Pantalla**
 
-📸 *Captura de pantalla 6: Canvi de pantalla a AnyDesk*
+<img width="2454" height="258" alt="image" src="https://github.com/user-attachments/assets/a712fdcc-b9fe-408e-bd89-6631473ab445" />
+
+### 2. Selecciona la pantalla que vols visualitzar
+
+<img width="261" height="513" alt="image" src="https://github.com/user-attachments/assets/3d1494b4-7ed7-44bc-98b7-33cde19186f2" />
 
 ---
 
@@ -126,13 +138,14 @@ AnyDesk permet reiniciar el dispositiu remot mantenint la connexió.
 
 **Passos:**
 
-1. Accedeix a **Actions / Accions**
-2. Selecciona **Restart**
+1. Accedeix a **Actions / Accions** i Selecciona **Restart**
+
+<img width="1500" height="2000" alt="image" src="https://github.com/user-attachments/assets/69d82cf6-145f-4841-a30f-95fb5e6dd33b" />
+
 3. Confirma el reinici
 
-📸 *Captura de pantalla 7: Reinici remot amb AnyDesk*
+<img width="923" height="859" alt="image" src="https://github.com/user-attachments/assets/2cfe83a2-0c93-4d7a-99ab-af95d98e00b3" />
 
-⚠ Informa sempre el client abans de realitzar el reinici
 
 ---
 
@@ -141,10 +154,13 @@ AnyDesk permet reiniciar el dispositiu remot mantenint la connexió.
 Quan la incidència estigui resolta:
 
 1. Comunica al client les accions realitzades
-2. Tanca la connexió clicant **Disconnect**
-3. Assegura’t que no queda cap accés actiu
 
-📸 *Captura de pantalla 8: Finalitzar sessió a AnyDesk*
+<img width="389" height="491" alt="image" src="https://github.com/user-attachments/assets/57407f1f-0c43-4f60-bb88-cd7ef406026f" />
+
+
+2. Tanca la connexió clicant **Disconnect**
+
+<img width="699" height="516" alt="image" src="https://github.com/user-attachments/assets/c4f25d51-0b8b-487e-9b49-46474ffd6f40" />
 
 ---
 
@@ -152,17 +168,17 @@ Quan la incidència estigui resolta:
 
 ### 7.1 Gestió de sessions
 
-* 🔒 Tanca sempre la connexió en acabar
-* ❌ No reutilitzis connexions actives
-* ⏱ Evita sessions obertes sense supervisió
+* Tanca sempre la connexió en acabar
+* No reutilitzis connexions actives
+* Evita sessions obertes sense supervisió
 
 ---
 
 ### 7.2 Credencials i permisos
 
-* ❌ No demanis ni desis contrasenyes de clients
-* ✔ Utilitza permisos temporals
-* ✔ Respecta les limitacions definides pel client
+* No demanis ni desis contrasenyes de clients
+* Utilitza permisos temporals
+* Respecta les limitacions definides pel client
 
 ---
 

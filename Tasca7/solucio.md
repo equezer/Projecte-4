@@ -1,4 +1,4 @@
-## **Fase 1: Anàlisi Comparativa i Selecció de la Solució**
+# **Fase 1: Anàlisi Comparativa i Selecció de la Solució**
 
 El primer pas és decidir quina eina utilitzarà EverPia. Heu de fer una anàlisi de mercat i presentar un breu informe comparatiu.
 
@@ -48,7 +48,7 @@ Ha d'explicar el flux de treball des del punt de vista del consultor. Ha d'inclo
 
 ---
 
-## 1. Instal·lació d’AnyDesk (versió tècnica)
+# 1. Instal·lació d’AnyDesk (versió tècnica)
 
 ### 1.2 Descàrrega de l’aplicació
 
@@ -62,7 +62,7 @@ Ha d'explicar el flux de treball des del punt de vista del consultor. Ha d'inclo
 
 ---
 
-### 2. Instal·lació
+# 2. Instal·lació
 
 1. Executa el fitxer descarregat
 
@@ -78,7 +78,7 @@ AnyDesk pot funcionar sense instal·lació, però **es recomana instal·lar-lo**
 
 ---
 
-## 3. Iniciar una sessió de suport remot
+# 3. Iniciar una sessió de suport remot
 
 ### Identificador d’AnyDesk
 
@@ -110,7 +110,7 @@ Cada dispositiu disposa d’un **AnyDesk ID** únic.
 
 ---
 
-### 4. Acceptació del client
+# 4. Acceptació del client
 
 El client ha d’acceptar la connexió i pot:
 
@@ -123,7 +123,7 @@ El client ha d’acceptar la connexió i pot:
 
 ---
 
-## 5. Gestió de funcions clau a AnyDesk
+# 5. Gestió de funcions clau a AnyDesk
 
 ---
 
@@ -183,7 +183,7 @@ AnyDesk permet reiniciar el dispositiu remot mantenint la connexió.
 
 ---
 
-## 6. Finalització de la sessió
+# 6. Finalització de la sessió
 
 Quan la incidència estigui resolta:
 
@@ -198,7 +198,7 @@ Quan la incidència estigui resolta:
 
 ---
 
-## 7. Bones pràctiques de seguretat
+# 7. Bones pràctiques de seguretat
 
 ### 7.1 Gestió de sessions
 
@@ -224,7 +224,7 @@ Quan la incidència estigui resolta:
 
 ---
 
-## 8. Responsabilitat del tècnic
+# 8. Responsabilitat del tècnic
 
 El tècnic és responsable de:
 
